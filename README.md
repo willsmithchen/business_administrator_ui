@@ -1,21 +1,21 @@
-# business_administrator_ui
+🏠️ business_administrator_ui(企业管理平台UI)
 
-## Project setup
+♈ Project setup
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+🔆 Compiles and hot-reloads for development
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+🔆 Compiles and minifies for production
 ```
 yarn build
 ```
 
-### Lints and fixes files
+🔆 Lints and fixes files
 ```
 yarn lint
 ```
