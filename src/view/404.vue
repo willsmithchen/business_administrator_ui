@@ -1,17 +1,17 @@
 <template>
+  <div class="images-page">
+    <LottieComponents
+        width="100%"
+        height="600px"
+        :json-data="errorJson"
+    />
+  </div>
   <div class="errPage">
-    <div style="margin-top: 100px">
-      <LottieComponents
-          width="400px"
-          height="400px"
-          :json-data="errorJson"
-      />
       <div class="info">抱歉，您访问的页面不存在。</div>
       <div class="go-back">
         <el-button @Click="goBack">返回上一页</el-button>
         <el-button type="primary" @Click="goHome"> 返回首页</el-button>
       </div>
-    </div>
   </div>
 </template>
 
@@ -44,9 +44,17 @@ function goBack() {
 </script>
 
 <style lang="scss" scoped>
+.images-page{
+  width: 50%;
+  //height: 600px;
+  //margin-top: 10%;
+  float: left;
+}
 .errPage {
-  width: 100%;
+  width: 50%;
   height: 100%;
+  float: right;
+  margin-top: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
